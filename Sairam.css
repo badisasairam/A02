@@ -1,0 +1,61 @@
+article,aside,footer,header,section
+{
+	display:block
+}
+body
+{
+	
+	background-color:powderblue;
+}
+header{
+background-color:rgb(13, 233, 167);
+border:0.5px solid rgb(10, 143, 196);
+font-size: 13px;
+text-align:center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'sans-serif';
+
+}
+footer{
+background-color:yellowgreen;
+font-style: italic;
+text-align:center;
+font-size: 17px;
+}
+article{
+background-color:rgba(141, 81, 20, 0.925);	
+}
+
+
+#past-section{
+	float: left;
+background-color: #aa7878 ;
+}
+
+
+.section-header{
+	background-color: 	rgb(189, 174, 40);
+}
+.aside-header{
+	float:right;
+	width: 350px;
+	height: 640px;
+	padding: 10px;
+	background-color:rgb(82, 163, 146);
+}
+.present-header{
+	background-color: 	rgb(143, 155, 206);
+	float: left;
+	width: 350px;
+}
+.future-header{
+	background-color: 	rgb(100, 187, 78);
+}
+.hobby-header{
+	background-color: 	rgb(189, 174, 40);
+}
+table, th, td {
+	
+    border: 1px solid black;
+	border-collapse:collapse;
+	background-color: rgb(204, 138, 51);
+}
