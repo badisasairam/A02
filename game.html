@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Numbers Magic</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="game.css">
+
+</head>
+  <body background="Background-1400x768.jpg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Sairam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="game.html">Numbers Magic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="container">
+      <h1 class="text-center">Guess The Number!</h1>
+      <p>Let's play a game... System have randomly generated a number between 1 and 50.</p>
+      <p>
+        Give a guess and system returns whether it's high or low. If you guess the correct number in 10 turns or less, you win!
+      </p> 
+
+      <div class="form text-center">
+        <label for="guessField" id="message">Enter a guess: </label> <input type="text" id="guessField" class="guessField"> <input type="submit" value="Submit Guess" class="guessSubmit"> 
+      </div>
+      <div class="resultParas">
+        <p class="guesses text-center"></p>
+        <p class="lastResult text-center"></p>
+        <p class="lowOrHi text-center"></p>
+      </div>
+      <div class="text-center" id="reset"></div>
+    </div>
+  
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="game.js"></script>
+    
+        
+
+</body>
+
+</html>

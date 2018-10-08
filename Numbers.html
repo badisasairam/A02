@@ -28,7 +28,7 @@
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Numbers.html">Numbers Magic</a>
+                    <a class="nav-link" href="Numbers.html">Tic-Tac-Toe</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Contact.html">Contact</a>
@@ -39,17 +39,44 @@
     <br>
     
 
-    <h5>Think of a number but do not reveal</h5>
-
-    <div class = "col-md-3">
-            <div class="form-group">
-                <label for="exampleInputPassword1">Add two to that number</label>
-                <input type="Text" class="form-control" id="exampleInputPassword1" placeholder="">
-            </div>
-
     
-                    
-                        <label for="exampleInputPassword1">Multiply two to that number</label>
-                        <input type="Text" class="form-control" id="exampleInputPassword1" placeholder="">
-                     </div>
-            </div>        
+        <header>
+          <h1>Tic Tac Toe</h1>
+        </header>
+        <main>
+          <section id="upper-left"> </section>
+          <section id="upper-mid"> </section>
+          <section id="upper-right"> </section>
+      
+          <section id="center-left"> </section>
+          <section id="center-mid"> </section>
+          <section id="center-right"> </section>
+      
+          <section id="lower-left"> </section>
+          <section id="lower-mid"> </section>
+          <section id="lower-right"> </section>
+        </main>
+        <aside>
+          <h1>Specification</h1>
+          <section>
+            <ul>
+              <li>Uses full-width header and footer.</li>
+              <li>Uses main 3 x 3 css grid, each with a section.</li>
+              <li>When user clicks a childless section, it adds an X.</li>
+              <li>If the move was valid, it selects a section for the computer and adds an O.</li>
+            </ul>
+            <ol>
+              <li>Improve the computer's selection algorithm.</li>
+              <li>Add an algorithm to check for a winner.</li>
+              <li>If winner, announce the winner and end the game.</li>
+              <li>Add "Play again?" button to clear the board.</li>
+              <li>Combine AddX and AddO into a single function.</li>
+            </ol>
+          </section>
+        </aside>
+        
+        <script src="game.js" defer></script>
+      
+      
+      
+      </html>    

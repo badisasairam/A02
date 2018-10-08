@@ -17,7 +17,7 @@
 
 </head>
 <body background="Background-1400x768.jpg">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Sairam</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -25,14 +25,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Numbers.html">Numbers Magic</a>
+                    <a class="nav-link" href="game.html">Numbers Magic</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact</a>
+                    <a class="nav-link active" href="Contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -41,23 +41,36 @@
     <div class = "col-md-3">
     <form>
         <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
+            <label for="exampleInputEmail1">Enter Full Name</label>
             <input type="Text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            
+            <br> Gender: <br>
+            <input type="radio" name = "gender" value = "male" checked> male &emsp;
+            <input type="radio" name = "gender" value = "Female"> Female <br>
+            <br>E-mail: <input type="email" class="form-control" name="user_email" placeholder="Enter Email id">
         </div>
+     
     </div>
-        <div class = "col-md-3">
+        <div class = "col-md-4">
         <div class="form-group">
             <label for="exampleInputPassword1">Any Questions</label>
-            <input type="Text" class="form-control" id="exampleInputPassword1" placeholder="Text">
+            <textarea rows="6" cols="10" class="form-control" id="exampleInputPassword1" placeholder="Text"> </textarea>
+            
         </div>
     </div>
         <div class="form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        
+        <button type="submit" class="btn btn-primary" onclick="alert('Your Response has been recorded')">Submit</button>
     </form>
+</div>
+<div class = "one">
+    <h5><a href="https://www.linkedin.com/in/sairam-badisa-614324148/">My Linkedin Profile <img src ="linkendin.png" width = "50" height = "50"></a></h5>
+    <h5><a href="https://www.facebook.com/sairambadisa">My Fb Profile <img src = "fb.jpg" width = "50" height = "50"></a></h5>
+    <h5><a href="https://bitbucket.org/sairambadisa9/">My BitBucket page <img src = "bitbucket.jpg" width = "50" height = "50"></a></h5>
+    <h5><a href="https://github.com/badisasairam">My GitHub page <img src = "github.png" width = "50" height = "50"></a></h5>
 </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
           crossorigin="anonymous"></script>
